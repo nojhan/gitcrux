@@ -138,6 +138,10 @@ Remote Servers
 
 If you own a privileged access to a remote on a server (e.g. gitolite on LAN, github or gitlab on internet, etc.), you can backup a set of commits with a `push`.
 
+
+Workflow summary
+================
+
 Classical workflow for working with others:
 0. `pull`
 1. `checkout -b feat/myfeat`
@@ -150,6 +154,9 @@ Classical workflow for working with others:
     - just send an e-mail, or
     - send a patch, or
     - on the issue tracker.
+
+![Gitcrux workflow diagram](./gitcrux_cheatsheet.svg)
+
 
 
 Nice Git features
